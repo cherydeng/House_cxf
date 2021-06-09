@@ -16,11 +16,11 @@ public class People {
     /**
      * 构造方法
      */
-    People() {
+    public People() {
 
     }
 
-    People(int Id, String name, String iphone, String require, int needTime) {
+    public People(int Id, String name, String iphone, String require, int needTime) {
         super();
         this.ID = Id;
         this.Name = name;

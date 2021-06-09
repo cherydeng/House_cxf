@@ -4,7 +4,9 @@ import com.chery.deng.Service.HouseService;
 import com.chery.deng.dao.HouseDao;
 import com.chery.deng.entity.House;
 import com.chery.deng.entity.People;
+import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.sql.DataSource;
 import java.util.List;
 
 public class HouseDaolmpl implements HouseDao {
